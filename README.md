@@ -32,5 +32,5 @@ This is a simple todolist app that I made to learn the basics of React. It uses 
 
 ## Depoloyment
 
-The app is deployed on [Netlify](https://www.netlify.com/). The deployment is done automatically when a commit is pushed to the `main` branch.
+The app is deployed on [Netlify](https://spontaneous-pony-2f53d9.netlify.app/). The deployment is done automatically when a commit is pushed to the `main` branch.
 
