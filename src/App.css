@@ -1,0 +1,63 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+  border: 5px solid lightskyblue;
+  border-radius: 10px;
+  outline: none;
+  color: blue;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  color: darkslateblue;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: lightslategray;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
